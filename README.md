@@ -12,8 +12,9 @@ Compares numeric parts of versons as numbers.
 
 Comparator that prioritize versions which matches first on list of regexps.
 
-**TIP**: You can use `softspring/doctrine-migrations-version-comparator` as equality
-fallback comparator.
+You can use other comparator as fallback in case migrations have the same
+regexp matched. For example: the library's `NumericComparator` or
+`softspring/doctrine-migrations-version-comparator`
 
 ### Example
 
